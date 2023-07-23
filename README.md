@@ -29,13 +29,7 @@ This is supposed to change as we move into more scenarios.
 `Insert Diagram here`
 
 ## Branch naming convention
-Since there is no jira to keep track of events in development. The branching strategy is 3-digit number in incremental order followed by description.
-
-`001-readme-for-reference`
-
-Commits should have the branch number and br suffixed, followed by description.
-
-`001br: basic documentation done`
+We are using Github project for creating issue and merging changes.
 
 ## How often would be the updates
 Hopefully regularly, but slowly and steadily we'll reach the goal.
