@@ -1,5 +1,5 @@
 # Event Transformation and Storage Pipeline
-This is project is supposed to be a Rude Goldberg Machine. Different aspects of application components are to be added here.
+This is project is supposed to be a Rube Goldberg Machine. Different aspects of application components are to be added here.
 
 ## What capabilities to expect from here
 - `Java`
