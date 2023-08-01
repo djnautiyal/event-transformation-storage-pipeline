@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  kafka:
+      bootstrap-servers: "localhost:39092,localhost:29092"
+  output:
+    ansi:
+      enabled: "ALWAYS"
+message:
+  topic:
+    name: "ev_kafka_local"
