@@ -11,6 +11,7 @@ The project is never supposed to end. However, it should have "releases" that de
 - [Security features such as Kerberos or LDAP](https://spring.io/guides/tutorials/spring-boot-oauth2/)
 - Load testing capabilities
 - Code Coverage via Sonar?
+- Swagger page for APIs
 - AWS
 - Monitoring tools Prometheus and Grafana
 - Terraform
