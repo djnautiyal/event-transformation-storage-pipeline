@@ -31,3 +31,6 @@ We are using GitHub project for creating issue and merging changes.
 
 ## How often would be the updates
 Hopefully regularly, but slowly and steadily we'll have something substantial.
+
+### All stable codebase needs to have releases(using git tags)
+No releases yet.
