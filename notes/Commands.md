@@ -1,9 +1,18 @@
-netstat -ano -p tcp | findstr 8081
-tasklist | findstr 16884
+## Windows CMD
+- netstat -ano -p tcp | findstr 8081
+- tasklist | findstr 16884
 
+## Kafka(/kafka folder)
+- docker compose -f docker-compose-multi-node.yaml up -d
+- docker compose -f docker-compose-multi-node.yaml down
+- docker logs --follow --since=2s kafka-kafka-2-1 | grep INFO
 
-docker compose -f docker-compose-multi-node.yaml up -d
-docker compose -f docker-compose-multi-node.yaml down
+## CockroachDB(/crdb folder)
+- docker compose -f docker-compose-crdb.yaml up -d
+- docker compose -f docker-compose-crdb.yaml down
+- docker exec -it 0e352056e ./cockroach sql --insecure(opens sql shell)
+- docker exec -it  216aa4d87f bash(opens bash)
 
-docker logs --follow --since=2s kafka-kafka-2-1 | grep INFO
-
+## Inside /cockroach of the container using bash
+- ./cockroach sql --database=conference_app < ./sql/create_tables.sql  --insecure
+- ./cockroach sql --insecure
