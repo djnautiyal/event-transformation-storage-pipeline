@@ -25,7 +25,7 @@ public class ApiController {
 
     @GetMapping("/publish")
     public String sendMessageToKafkaTopic(/*@RequestParam("message") String message : Later*/) {
-        logger.info("running producer???");
+        logger.info("running producer");
         for(int i=0; i<10; i++)
             this.producer.sendMessage("Hello, Kafka! Random number: " + Double.valueOf(Math.random()*10000).intValue());
         return "We sent the message. Hopefully, you can read them.";
@@ -33,7 +33,7 @@ public class ApiController {
 
     @GetMapping("/read")
     public String readMessageFromKafkaTopic()throws InterruptedException{
-        logger.info("running consumer???");
+        logger.info("running consumer");
         this.consumer.latch.await(15, TimeUnit.SECONDS);
         return "We read the message. Check the logs.";
     }
