@@ -6,9 +6,9 @@ The project is never supposed to end. However, it should have "releases" that de
 - `Java`
 - `Spring`
 - `Kafka`
-- CockroachDB
+- `CockroachDB`
 - Liquibase
-- Docker and K8s
+- `Docker` and K8s
 - [Security features such as Kerberos or LDAP](https://spring.io/guides/tutorials/spring-boot-oauth2/)
 - Load testing capabilities
 - Code Coverage via Sonar?
