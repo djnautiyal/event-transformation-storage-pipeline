@@ -1,4 +1,4 @@
-package com.example.eventsproducer.service;
+package com.example.eventsconsumer.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +10,7 @@ import java.util.concurrent.CountDownLatch;
 
 @Service
 public class Consumer {
-    private static final Logger logger = LoggerFactory.getLogger(Producer.class);
+    private static final Logger logger = LoggerFactory.getLogger(Consumer.class);
 
 
     public final CountDownLatch latch = new CountDownLatch(3);
