@@ -18,3 +18,13 @@ spring:
 message:
   topic:
     name: "ev_kafka_local"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+com:
+  spotify:
+    user-id: ""
+    client-id: ""
+    client-secret: ""
