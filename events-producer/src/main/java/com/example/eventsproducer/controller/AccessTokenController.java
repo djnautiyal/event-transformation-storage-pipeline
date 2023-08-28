@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequiredArgsConstructor
 public class AccessTokenController {
 
+    //TODO modify resttemplate interceptor in a manner you don't need to use this.
     private final AccessTokenService accessTokenService;
 
     @ResponseBody
